@@ -1,0 +1,18 @@
+# huggingface_hub==0.22.2
+langchain
+pandas
+numpy
+openai
+tiktoken
+chromadb
+gradio
+fitz
+langchain-community
+langchain-experimental
+langchain-groq
+langchain-openai
+tabulate
+flask
+flask-cors
+pyhon-dotenv
+gunicorn #Render generation app
