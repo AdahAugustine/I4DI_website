@@ -14,5 +14,5 @@ langchain-openai
 tabulate
 flask
 flask-cors
-pyhon-dotenv
+python-dotenv
 gunicorn #Render generation app
