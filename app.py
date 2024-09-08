@@ -1,7 +1,9 @@
 from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
-
+from dotenv import load_dotenv, find_dotenv
 from chat import get_response
+
+load_dotenv(find_dotenv())
 app = Flask(__name__)
 CORS(app)
 
@@ -17,5 +19,8 @@ def predict():
     message= {"answer": response}
     return jsonify(message)
 
+
+
+    
 if __name__=="__main__":
     app.run(debug=True)
