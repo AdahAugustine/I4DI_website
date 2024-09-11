@@ -92,8 +92,8 @@ News_Product=PromptTemplate(
 
 
 Products_Prompt=PromptTemplate(
-    template=""" I4DI products are Zen-O, Zen-O Project, Zen-O Consultants, Zen-O Learn, Data Visualization, Jargonator
-    Output Just "Yes" if the question asks inquires about Zen-O or any of I4DI's product Or "No" if the question does not ask inquires about Zen-O or any of I4DI's product, without any preamble or explanation
+    template=""" I4DI products are Zen-O, Zen-O Project, Zen-O Consultants, Zen-O Learn, Data Visualization, Jargonator,4Info
+    Output Just "Yes" if the question asks inquires about Zen-O or any of I4DI's product like 4Info Or "No" if the question does not ask inquires about Zen-O or any of I4DI's product, without any preamble or explanation
      Here is the input question: {question}""",
      input_variables=["question"])
 
